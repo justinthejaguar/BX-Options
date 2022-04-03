@@ -1,0 +1,27 @@
+{
+  "name": "bx-options",
+  "title": "BX Options Classes",
+  "description": "Classes as they appear in BX Options by Erin D. Smale.",
+  "author": "Justin the Jaguar",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.5.5",
+  "compatibleCoreVersion": "9",
+  "packs": [
+    {
+      "name": "BXO Abilities",
+      "label": "BXO Abilities",
+      "path": "packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "module": "bx-options"
+    },
+    {
+      "name": "BXO Progressions",
+      "label": "BXO Progressions",
+      "path": "packs/journalentries.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry",
+      "module": "bx-options"
+    }
+  ]
+}
