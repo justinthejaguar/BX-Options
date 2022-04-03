@@ -2,7 +2,7 @@
   "name": "bx-options",
   "title": "BX Options Classes",
   "description": "Classes as they appear in BX Options by Erin D. Smale.",
-  "author": "Justin the Jaguar",
+  "author": "JustintheJaguar",
   "version": "1.0.0",
   "minimumCoreVersion": "0.5.5",
   "compatibleCoreVersion": "9",
@@ -23,5 +23,8 @@
       "type": "JournalEntry",
       "module": "bx-options"
     }
-  ]
+  ],
+  "url": "",
+  "manifest": "",
+  "download": ""
 }
