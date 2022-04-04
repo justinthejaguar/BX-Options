@@ -3,7 +3,7 @@
 Manifest URL: https://github.com/justinthejaguar/BX-Options/releases/latest/download/module.json
 
 This is a Foundry VTT compendium which incorporates the classes of BX Options by Erin D. Smale. These classes merely touch the surface of the class creation rules that Erin has put together. I encourage players to get their hands on this great book, and find your own enjoyment in the options presented.
-You can find this great book here: https://welshpiper.com/packages/bx-options-class-builder/
+You can find BX Options here: https://welshpiper.com/packages/bx-options-class-builder/
 
 Classes Included:
 The Elven Archon, Assassin, Barbarian, Bard, Beast-talker, Berserker, Crusader, Elven Elder, Necromancer, Scout, Shaman, Sorcerer, and the Halfing Warden.
