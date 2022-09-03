@@ -3,15 +3,26 @@
   "title": "BX Options Classes",
   "description": "Classes as they appear in BX Options by Erin D. Smale.",
   "author": "JustintheJaguar",
-  "version": "1.0.0",
+  "version": "1.0",
   "minimumCoreVersion": "0.5.5",
-  "compatibleCoreVersion": "9",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+      "minimum": "10",
+      "verified": "10.284",
+      "maximum": "10"
+    },
+    "authors": [
+      {
+        "name": "JustintheJaguar"
+      }
+    ],
   "packs": [
     {
       "name": "BXO Abilities",
       "label": "BXO Abilities",
       "path": "packs/items.db",
       "entity": "Item",
+      "system": ["ose"],
       "type": "Item",
       "module": "bx-options"
     },
@@ -20,6 +31,7 @@
       "label": "BXO Progressions",
       "path": "packs/journalentries.db",
       "entity": "JournalEntry",
+      "system": ["ose"],
       "type": "JournalEntry",
       "module": "bx-options"
     }
