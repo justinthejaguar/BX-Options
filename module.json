@@ -1,42 +1,40 @@
 {
-  "name": "bx-options",
   "title": "BX Options Classes",
   "description": "Classes as they appear in BX Options by Erin D. Smale.",
-  "author": "JustintheJaguar",
-  "version": "1.0",
-  "minimumCoreVersion": "0.5.5",
-  "compatibleCoreVersion": "10",
+  "version": "V10",
   "compatibility": {
-      "minimum": "10",
-      "verified": "10.285",
-      "maximum": "10"
-    },
-    "authors": [
-      {
-        "name": "JustintheJaguar"
-      }
-    ],
+    "minimum": "10",
+    "verified": "10.288",
+    "maximum": "10"
+  },
+  "authors": [
+    {
+      "name": "JustintheJaguar",
+      "flags": {}
+    }
+  ],
   "packs": [
     {
       "name": "BXO Abilities",
       "label": "BXO Abilities",
       "path": "packs/items.db",
-      "entity": "Item",
-      "system": ["ose"],
+      "system": "ose",
       "type": "Item",
-      "module": "bx-options"
+      "private": false,
+      "flags": {}
     },
     {
       "name": "BXO Progressions",
       "label": "BXO Progressions",
       "path": "packs/journalentries.db",
-      "entity": "JournalEntry",
-      "system": ["ose"],
+      "system": "ose",
       "type": "JournalEntry",
-      "module": "bx-options"
+      "private": false,
+      "flags": {}
     }
   ],
-  "url": "",
-  "manifest": "",
-  "download": ""
+  "url": "https://github.com/justinthejaguar/BX-Options",
+  "manifest": "https://github.com/justinthejaguar/BX-Options/releases/latest/download/module.json",
+  "download": "https://github.com/justinthejaguar/BX-Options/releases/download/V10/module.zip",
+  "id": "bx-options"
 }
