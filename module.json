@@ -1,11 +1,11 @@
 {
   "title": "BX Options Classes",
   "description": "Classes as they appear in BX Options by Erin D. Smale.",
-  "version": "V10",
+  "version": "version 11",
   "compatibility": {
     "minimum": "10",
-    "verified": "10.288",
-    "maximum": "10"
+    "verified": "11.300",
+    "maximum": "11"
   },
   "authors": [
     {
@@ -33,8 +33,8 @@
       "flags": {}
     }
   ],
-  "url": "https://github.com/justinthejaguar/BX-Options",
-  "manifest": "https://github.com/justinthejaguar/BX-Options/releases/latest/download/module.json",
-  "download": "https://github.com/justinthejaguar/BX-Options/releases/download/V10/module.zip",
+  "url": "",
+  "manifest": "",
+  "download": "",
   "id": "bx-options"
 }
