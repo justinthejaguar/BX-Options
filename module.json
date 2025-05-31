@@ -1,40 +1,67 @@
 {
   "title": "BX Options Classes",
   "description": "Classes as they appear in BX Options by Erin D. Smale.",
-  "version": "version 11",
+  "version": "11.1",
   "compatibility": {
     "minimum": "10",
-    "verified": "11.300",
-    "maximum": "11"
+    "verified": "12.343",
+    "maximum": "12"
   },
   "authors": [
     {
       "name": "JustintheJaguar",
+      "discord": "thejaguar42",
       "flags": {}
     }
   ],
   "packs": [
     {
-      "name": "BXO Abilities",
+      "name": "BXOAbilities",
       "label": "BXO Abilities",
-      "path": "packs/items.db",
-      "system": "ose",
+      "path": "packs/items",
       "type": "Item",
-      "private": false,
-      "flags": {}
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "BXO Progressions",
-      "label": "BXO Progressions",
-      "path": "packs/journalentries.db",
-      "system": "ose",
+      "name": "BXOProgressions",
+      "label": "BXO Classes",
+      "path": "packs/journalentries",
       "type": "JournalEntry",
-      "private": false,
-      "flags": {}
+      "system": "ose",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bxo-abilities",
+      "label": "BXO Abilities",
+      "path": "packs/bxo-abilities",
+      "type": "Item",
+      "system": "bfs",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bxo-progressions",
+      "label": "BXO Classes",
+      "path": "packs/bxo-progressions",
+      "type": "JournalEntry",
+      "system": "bfs",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://github.com/justinthejaguar/BX-Options",
+  "manifest": "https://github.com/justinthejaguar/BX-Options/releases/latest/download/module.json",
+  "download": "https://github.com/justinthejaguar/BX-Options/releases/download/11.1/module.zip",
   "id": "bx-options"
 }
